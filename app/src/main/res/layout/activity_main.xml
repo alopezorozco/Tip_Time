@@ -10,12 +10,12 @@
 
     <EditText
         android:id="@+id/cost_of_service"
-        android:hint="Cost of Service"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_width="160dp"
+        android:hint="Cost of Service"
+        android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:inputType="numberDecimal"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/service_question"
